@@ -17,6 +17,9 @@ INSERT INTO skills (programming_language, skill_level) VALUES
 ('python',  'middle'),
 ('python',  'senior');
 
+UPDATE skills SET programming_language = 'Java' WHERE ID = 8;
+UPDATE skills SET programming_language = 'Java' WHERE ID = 9;
+
 INSERT INTO developer (company_id, name, age, sex) VALUES
 (1, 'HK-47', 1, 'unknown'),
 (1, 'C3PO', 20, 'unknown'),
