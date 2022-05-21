@@ -74,3 +74,6 @@ CREATE TABLE company_customer (
     FOREIGN KEY (customer_id) REFERENCES customers(id),
     FOREIGN KEY (company_id) REFERENCES companies(id)
 );
+
+ALTER TABLE projects
+DROP COLUMN company_id;
